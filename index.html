@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Responsive Restaurant Website</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/logo-img.png">
+
+    <!-- Font Awesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!-- navbar section -->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="#"><img src="images/logo-img.png" class="logo-img"></a>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/logo-img.png"
+                            class="logo-img"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-3 active" aria-current="page" href="#">Home</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-3" href="#">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-3" href="#">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-3" href="#">Book Table</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <a href="#" class="order-btn">Order Now</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- hero page section -->
+
+    <div class="container">
+        <div class="hero">
+            <!-- image  -->
+            <div class="hero_img ">
+                <image src="images/hero-img.png" alt="hero image"></image>
+            </div>
+
+            <!-- content  -->
+            <div class="hero_content">
+                <div class="tag">
+                    50% Off on All Products
+                </div>
+                <h1>Enjoy Your Delicious Food</h1>
+                <p>
+                    Order In-Store, Pre-Order, or Pick Up and Find Great Discounts at nearby restaurants!
+
+                </p>
+                <button class="explore_now">Explore Now</button>
+            </div>
+        </div>
+
+        <!-- features  -->
+        <section class="features">
+            <div class="feature">
+
+                <img src="images/price-tag.png" alt="">
+                <div class="feature_content">
+                    <h3>Discount Voucher</h3>
+                    Get Free Discount on your first order
+
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <img src="images/delivery.png" alt="">
+                <div class="feature_content">
+                    <h3>Fast Home Delivery</h3>
+                    Best Fast Food Delivery Services in india
+
+                </div>
+
+            </div>
+
+            <div class="feature">
+
+                <img src="images/fast-food.png" alt="">
+                <div class="Fresh Healthy Food">
+                    <h3>Discount Voucher</h3>
+                    Build your day with fresh food & drinks
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <div class="divider"></div>
+
+        <!-- menu  -->
+
+        <div class="menu">
+            <div class="tag">Our Menu</div>
+            <h2>Explore Our Menu</h2>
+
+
+            <div class="grid">
+                <div class="item1 s1">
+                    <img src="images/grid-item1.jpg" alt="item1" class="grid-img">
+                </div>
+
+                <div class="item2">
+                    <img src="images/grid-item2.jpg" alt="item2" class="grid-img">
+                </div>
+
+                <div class="item3">
+                    <img src="images/grid3.jpg" alt="item3" class="grid-img">
+                </div>
+
+                <div class="item4">
+                    <img src="images/grid4.jpg" alt="item4" class="grid-img">
+                </div>
+
+                <div class="item5">
+                    <img src="images/grid-item4.jpg" alt="item5" class="grid-img">
+                </div>
+
+                <div class="item6">
+                    <img src="images/grid-item6.jpg" alt="item6" class="grid-img">
+                </div>
+
+                <div class="item7">
+                    <img src="images/grid7.jpg" alt="item7" class="grid-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container ">
+        <section class="select-item">
+            <h2 class="text-center my-lg-5">Our Best Foods</h2>
+
+            <div class="select-item-content">
+
+                <div class="select-item-box">
+                    <img src="images/item1.png">
+                    <h3>Biryani</h3>
+
+
+                </div>
+
+                <div class="select-item-box">
+                    <img src="images/item2.png" alt="">
+                    <h3>Burgers</h3>
+
+                </div>
+
+                <div class="select-item-box">
+                    <img src="images/item3.png" alt="">
+                    <h3>Pizza</h3>
+
+                </div>
+
+                <div class="select-item-box">
+                    <img src="images/item4.png" alt="">
+                    <h3>Indian Thali</h3>
+
+                </div>
+
+                <div class="select-item-box">
+                    <img src="images/item5.png" alt="">
+                    <h3>Dosa</h3>
+
+                </div>
+
+
+                <div class="select-item-box">
+                    <img src="images/item8.png">
+                    <h3>Idli</h3>
+
+                </div>
+
+                <div class="select-item-box">
+                    <img src="images/item6.png">
+                    <h3>Dessert</h3>
+
+                </div>
+
+
+
+                <div class="select-item-box">
+                    <img src="images/item7.png">
+                    <h3>Coffee</h3>
+
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+
+
+
+
+
+    <!-- footer  -->
+    <div class="footer">
+        <div class="bg-dark pt-5">
+            <div class="container d-flex justify-content-evenly align-items-center text-white w-50">
+                <i class="fa-brands fa-facebook-f bg-success rounded-circle p-3"></i>
+                <i class="fa-brands fa-instagram  bg-success rounded-circle p-3"></i>
+                <i class="fa-brands fa-twitter  bg-success rounded-circle p-3"></i>
+                <i class="fa-brands fa-youtube  bg-success rounded-circle p-3"></i>
+            </div>
+            <div class="container w-100 m-5">
+                <form>
+                    <div class="d-flex justify-content-center align-items-center text-white w-50 m-auto">
+                        <label for="exampleInputEmail1" class=" mx-2 w-15 fs-5">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                        <button type="submit" class="btn btn-success mx-1">Submit</button>
+                </form>
+            </div>
+            <div class="container d-flex justify-content-center align-items-center text-capitalize my-2">
+                <p class="text-secondary">Home | Blog | Catering | Delivery </p>
+            </div>
+
+        </div>
+        <div class="bg-success py-2 text-center">
+            <p class="text-body-tertiary">Copyright © Resturaunt Website-2024</p>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- bootstrap js link  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
